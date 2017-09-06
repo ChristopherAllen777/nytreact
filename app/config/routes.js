@@ -21,7 +21,7 @@ var IndexRoute = router.IndexRoute;
 // Reference the high-level components
 var Main = require("../components/Main");
 var Child1 = require("../components/children/Child1");
-var Child2 = require("../components/children/Child2");
+var Results = require("../components/children/Results");
 var Saved = require("../components/children/Saved");
 var GrandChild1 = require("../components/children/grandchildren/GrandChild1");
 var GrandChild2 = require("../components/children/grandchildren/GrandChild2");
@@ -46,12 +46,12 @@ module.exports = (
       </Route>
 
       {/* If user selects Child2 then show the appropriate component*/}
-      <Route path="Child2" component={Child2} />
+      <Route path="Results" component={Results} />
       <Route path="Saved" component={Saved} />
 
       {/* If user selects any other path... we get the Home Route */}
       <IndexRoute component={Child1} />
 
     </Route>
-  </Router>
-);
+  </Router> 
+)
