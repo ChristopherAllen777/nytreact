@@ -47,13 +47,11 @@ var Main = React.createClass({
               </select>
             </div>
 
-            {/* Here we capture the Start Year Parameter */}
               <div className="form-group">
                 <label for="start-year">Start Year (Optional):</label>
                 <input type="text" className="form-control" id="start-year"/>
               </div>
 
-               {/* Here we capture the End Year Parameter */}
               <div className="form-group">
                 <label for="end-year">End Year (Optional):</label>
                 <input type="text" className="form-control" id="end-year"/>
