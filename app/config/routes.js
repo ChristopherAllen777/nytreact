@@ -36,6 +36,7 @@ module.exports = (
 
       {/* If user selects Child1 then show the appropriate component*/}
       <Route path="Child1" component={Child1} >
+      <Route path="Results" component={Results} />
 
         {/* Child1 has its own Grandchildren options */}
         <Route path="GrandChild1" component={GrandChild1} />

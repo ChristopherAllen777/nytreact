@@ -17,7 +17,7 @@ var Main = React.createClass({
           <hr />
           <p>
             <Link to="/Child1"><button className="btn btn-primary btn-lg">Search</button></Link>
-            <Link to="/Child2"><button className="btn btn-danger btn-lg">Results</button></Link>
+            <Link to="/Results"><button className="btn btn-danger btn-lg">Results</button></Link>
             <Link to="/Saved"><button className="btn btn-warning btn-lg">Saved Articles</button></Link>
           </p>
         </div>

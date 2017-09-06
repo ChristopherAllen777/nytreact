@@ -8,7 +8,7 @@ var Saved = React.createClass({
         <div className="col-lg-12">
           <div className="panel panel-warning">
             <div className="panel-heading">
-              <h3 className="panel-title">Child #2</h3>
+              <h3 className="panel-title">Saved Articles</h3>
             </div>
             <div className="panel-body">
               I'm saved Articles!
